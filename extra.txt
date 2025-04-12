@@ -281,3 +281,6 @@ python              3.9-slim   d1fd80755520   3 months ago     189MB
 Untagged: webpagedocker-web:latest
 Deleted: sha256:4ac2ca057d29209a957e8b082d786c907c67c50706e3dc8a01b990bc6372ff23
 (venv) PS E:\University\assignments\Mine\sem 7\DevOps\Guide to working with Dockers\WebPageDocker> 
+
+docker tag local-image:tagname new-repo:tagname
+docker push new-repo:tagname
